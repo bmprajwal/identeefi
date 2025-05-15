@@ -92,7 +92,7 @@ const UpdateProductDetails = () => {
 
 
     useEffect(() => {
-        Geocode.setApiKey("65acd91b1bd6a98a9d179ad57f57d92c");
+        Geocode.setApiKey("AIzaSyBkk1Ccw0Pl4AnbXuEBrrc1-gKJuYNzOgM");
 
         Geocode.fromLatLng(currLatitude, currLongtitude).then(
             (response) => {
